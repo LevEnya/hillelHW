@@ -11,7 +11,7 @@ function App() {
   const [testPost, getPostParams] = useState([]);
 
   function setAutUser(){
-    fetch('http://www.mocky.io/v2/5944e07213000038025b6f30').then(result=>result.json()).then(
+    fetch('https://www.mocky.io/v2/5944e07213000038025b6f30').then(result=>result.json()).then(
       data=>{
         getPostParams(data)
         changeUserStatus(true)
