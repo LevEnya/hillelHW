@@ -27,7 +27,6 @@ function App() {
       </header>
 
        { autUser ? <Main testPost={testPost}/> : <MyForm setAutUser={setAutUser} /> }
-      {/*<AllSite /> */}
 
     </div>
   );
